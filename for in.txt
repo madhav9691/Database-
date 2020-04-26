@@ -1,0 +1,21 @@
+DECLARE
+a NUMBER;
+b NUMBER;
+upper-limit NUMBER :=4;
+BEGIN
+dbms_output.put_line(‘Program started.' ); 
+«outerloop»?	?
+LOOP 
+a:=a+l;
+b:=l;
+«inner loop»
+LOOP
+EXIT outer_loop WHEN a > upper_limit;
+dbms_output.put_line(a);
+b:=b+l;
+EXIT inner_loop WHEN b>a;
+END LOOP;
+END LOOP;
+dbms_output.put_line('Program completed.');
+END;
+/

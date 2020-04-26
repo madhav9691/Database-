@@ -1,0 +1,11 @@
+DECLARE 
+a NUMBER=1; 
+BEGIN
+dbms_output.put_line('Program started.');
+LOOP
+dbms_output.put_line(a);
+a:=a+l;
+EXIT WHEN a>5;
+END LOOP;
+dbms_output.put_lme('Program completed');
+END:
